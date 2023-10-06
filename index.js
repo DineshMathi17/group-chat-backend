@@ -1,5 +1,3 @@
-
-
 const express = require("express");
 const app = express();
 const http = require("http");
@@ -35,7 +33,6 @@ io.on("connection", (socket) => {
          console.log('disconnected')
         })
 });
-
 
 
  server.listen(7000 , () => console.log('listening to port 7000'))
